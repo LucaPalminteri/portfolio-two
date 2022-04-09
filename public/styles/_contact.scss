@@ -1,0 +1,149 @@
+.contact {
+    background-color: $light-yellow;
+    padding: $side;
+    h2 {
+        margin-top: 150px;
+        padding-bottom: 60px;
+        color: $yellow;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 100px;
+        line-height: 150px;
+    }
+    .contact__container {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 100px;
+        .container--form {
+            background-color: $yellow;
+            flex-grow: 5;
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto auto;
+            padding: 10px;
+            gap: 10px;
+            min-width: 60%;
+            .input {
+                border: none;
+                min-height: 50px;
+                text-indent: 10px;
+                min-width: 100px;
+                font-size: 20px;
+            }
+            .name {
+                grid-column: 1 / 2;
+                grid-row: 1 / 2;
+            }
+            .email {
+                grid-column: 2 / 3;
+                grid-row: 1 / 2;
+            }
+            .message {
+                grid-column: 1 / 3;
+                grid-row: 2 / 3;
+                min-height: 120px;
+                resize: none;
+            }
+            .send {
+                grid-column: 1 / 3;
+                grid-row: 3 / 4;
+                background-color: #efefef;
+                transition-duration: .3s;
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: #dedede;
+                }
+
+                &:focus {
+                    background-color: #cdcdcd;
+                }
+            }
+        }
+        .container--info {
+            padding-left: 50px;
+            flex-grow: 3;
+            h3 {
+                font-size: 55px;
+            }
+        }
+    }
+    .contact__social {
+        display: flex;
+        justify-content: center;
+        overflow-y: hidden;
+        a {
+            margin: 0 40px;
+            font-size: 40px;
+            padding: 0 10px;
+            border-radius: 6px;
+            transition-duration: 0.3s;
+            &:hover {
+                background-color: $yellow;
+            }
+        }
+    }
+    .contact__footer {
+        margin-top: 100px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+// -------------------------------------------------------------------------------------
+
+@media screen and (max-width: 850px) {
+    .contact {
+        padding: $responsive-side;
+        .contact__container {
+            flex-direction: column;
+            .container--info{
+                padding-top: 50px;
+                margin-left: 0px;
+                padding: 50px 0;
+            }
+        }
+    }
+}
+
+// -------------------------------------------------------------------------------------
+
+@media screen and (max-width: 600px) {
+    .contact {
+        h2 {
+            font-size: 75px;
+        }
+        .contact__container {
+            .container--form {
+                display: grid;
+                grid-template-columns: auto auto;
+                grid-template-rows: auto auto auto auto;
+                .name {
+                    grid-column: 1 / 3;
+                    grid-row: 1 / 2;
+                }
+                .email {
+                    grid-column: 1 / 3;
+                    grid-row: 2 / 3;
+                }
+                .message {
+                    grid-column: 1 / 3;
+                    grid-row: 3 / 4;
+                    height: 80px;
+                }
+                .send {
+                    grid-column: 1 / 3;
+                    grid-row: 4 / 5;
+                }
+            }
+        }
+        .contact__social {
+            a {
+                margin: 0 20px;
+                
+            }
+        }
+    }
+}
