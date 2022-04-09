@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio-two/static/css/main.fc0706bd.css",
-    "main.js": "/portfolio-two/static/js/main.022b42fd.js",
+    "main.js": "/portfolio-two/static/js/main.2e9587bf.js",
     "static/media/ex.png": "/portfolio-two/static/media/ex.50b14ea76eb03a7f7236.png",
     "static/media/LUCA-PALMINTERI-EN_CV.pdf": "/portfolio-two/static/media/LUCA-PALMINTERI-EN_CV.0fc98bc9447292fb8463.pdf",
     "index.html": "/portfolio-two/index.html",
     "main.fc0706bd.css.map": "/portfolio-two/static/css/main.fc0706bd.css.map",
-    "main.022b42fd.js.map": "/portfolio-two/static/js/main.022b42fd.js.map"
+    "main.2e9587bf.js.map": "/portfolio-two/static/js/main.2e9587bf.js.map"
   },
   "entrypoints": [
     "static/css/main.fc0706bd.css",
-    "static/js/main.022b42fd.js"
+    "static/js/main.2e9587bf.js"
   ]
 }
