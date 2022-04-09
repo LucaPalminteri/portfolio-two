@@ -5,6 +5,7 @@ import {faEnvelope} from "@fortawesome/free-solid-svg-icons"
 import resume from '../info/LUCA-PALMINTERI-EN_CV.pdf'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import img from "../images/ex.png"
 
 export default function Home() {
 
@@ -23,10 +24,6 @@ export default function Home() {
 
     function toggle() {
         setIsBtnOn((prevState) => !prevState);
-    }
-
-    function ex() {
-        setTimeout(()=>{<h1>Example</h1>},100)
     }
 
     return (
@@ -80,7 +77,11 @@ export default function Home() {
                 <div className="home__info">
                     <h2 data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">Hello, I'm </h2>
                     <h1 data-aos="fade-right" data-aos-duration="800" data-aos-delay="500">LUCA PALMINTERI</h1>
-                    <h2 data-aos="fade-right" data-aos-duration="800" data-aos-delay="600">FRONTEND DEVELOPER.</h2>
+                    {width > 1200 ?
+                        <h2 data-aos="fade-right" data-aos-duration="800" data-aos-delay="600">FRONTEND DEVELOPER.</h2>
+                    :
+                        <h2 className="right">FRONTEND DEVELOPER.</h2>
+                    }
                     {width > 1200 ? 
                     <div data-aos="fade-right" data-aos-duration="800" data-aos-delay="700" className="btn-container">
                         <a href="#contact"><button className="btn">Contact</button></a>
@@ -95,11 +96,10 @@ export default function Home() {
                 </div>
                 
                 <div data-aos="fade-left" data-aos-duration="800" data-aos-delay="600" className="home__img">
-                    <img src='/images/ex.png'/>
+                    <img src={img}/>
                 </div>
             </div>
 
-            {ex()}
         </div>
     )
 }

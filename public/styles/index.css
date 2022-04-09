@@ -10,10 +10,6 @@
   scroll-behavior: smooth;
 }
 
-html, body {
-  width: 100vw;
-}
-
 :root {
   overflow: hidden;
   overflow-y: scroll;
@@ -47,6 +43,28 @@ a {
   100% {
     -webkit-transform: translateY(0%);
             transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slideRight {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
   }
 }
 
@@ -281,7 +299,7 @@ a {
 
 @media screen and (max-width: 1200px) {
   body {
-    background-color: lightblue;
+    overflow-x: hidden;
   }
   .home .home__navbar {
     height: 10vh;
@@ -329,6 +347,14 @@ a {
   .home__container .home__info h2 {
     line-height: 60px;
     font-size: 2rem;
+  }
+  .home__container .home__info .right {
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+    -webkit-animation-name: slideRight;
+            animation-name: slideRight;
+    -webkit-transition-timing-function: ease;
+            transition-timing-function: ease;
   }
   .home__container .home__info .btn-container {
     -ms-flex-pack: distribute;

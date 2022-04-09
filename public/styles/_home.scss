@@ -7,6 +7,15 @@
     }
 }
 
+@keyframes slideRight {
+    0%{
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0%);
+    } 
+}
+
 @keyframes slideIn {
     0%{
         transform: translateX(100%);
@@ -181,7 +190,7 @@
 @media screen and (max-width: 1200px) {
 
     body {
-        background-color: lightblue;
+        overflow-x: hidden;
     }
 
     .home {
@@ -221,6 +230,12 @@
             h2 {
                 line-height: 60px;
                 font-size: 2rem;
+            }
+
+            .right {
+                animation-duration: 1.5s;
+                animation-name: slideRight;
+                transition-timing-function: ease;
             }
             .btn-container {
                 justify-content: space-around;
