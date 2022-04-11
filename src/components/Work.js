@@ -21,7 +21,8 @@ export default function Work() {
         <div className="work" id="work">
             <h2 data-aos="fade-right" data-aos-duration="800">work.</h2>
             <h3 data-aos="fade-right" data-aos-duration="800">I am someone who is mature, candid and who has integrity.  Everyday I work to improve myself 
-                and my skills which is part of maturing and becoming better at what I do.<br/>
+                and my skills which is part of maturing and becoming better at what I do.
+            </h3><h3 data-aos="fade-right" data-aos-duration="800">
                 I seek to work for a successful company that has strong leadership and vision and who recognizes 
                 and rewards performers.
             </h3>

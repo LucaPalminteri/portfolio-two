@@ -90,7 +90,7 @@ export default function Home() {
                     </div>
                     :
                     <div className="btn-container slide-up">
-                        <a href="#contact"><button className="btn">Contact</button></a>
+                        <HashLink to='#contact'><button className="btn">Contact</button></HashLink>
                         <a href={resume} download="CV-Palminteri-Luca-Frontend-Developer"><button className="btn">Resume</button></a>
                     </div>
                 }
