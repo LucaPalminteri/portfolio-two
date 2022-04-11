@@ -29,17 +29,30 @@ export default function Cards(props) {
                 </div>
                 <div className="cards-container__img left">
                 <video data-aos="fade-left" data-aos-duration="800" 
-                width="100%" poster={props.data.image} muted autoPlay loop>
-                        <source src={props.data.video} type="video/mp4" />
+                width="100%" poster={ props.data.id === 2 ? 
+                            require('../images/project-two.png') :
+                            require('../images/project-four.png')
+                            } muted autoPlay loop>
+                        <source src={ props.data.id === 2 ?
+                            require('../images/project-two.mp4') :
+                            require('../images/project-four.mp4')
+                            } type="video/mp4" />
                     </video>
+                    
                 </div> 
             </> 
             : 
             <>
                 <div className="cards-container__img">
                     <video data-aos="fade-right" data-aos-duration="800" 
-                    width="100%" poster={props.data.image} muted autoPlay loop>
-                        <source src={props.data.video} type="video/mp4" />
+                    width="100%" poster={ props.data.id === 1 ? 
+                        require('../images/project-one.png') :
+                        require('../images/project-three.png')
+                        } muted autoPlay loop>
+                        <source src={ props.data.id === 1 ?
+                            require('../images/project-one.mp4') :
+                            require('../images/project-three.mp4')
+                            } type="video/mp4" />
                     </video>
                 </div>  
                 <div className="cards-container__info">
