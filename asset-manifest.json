@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-two/static/css/main.bbfe8aa4.css",
-    "main.js": "/portfolio-two/static/js/main.500b8421.js",
+    "main.js": "/portfolio-two/static/js/main.2c3d9c77.js",
     "static/media/project-two.mp4": "/portfolio-two/static/media/project-two.801a2ccf8423d0baa34d.mp4",
     "static/media/project-four.mp4": "/portfolio-two/static/media/project-four.02ccbc975490d8d14af7.mp4",
     "static/media/project-one.mp4": "/portfolio-two/static/media/project-one.aa57aa1463f006e69e6a.mp4",
@@ -9,15 +9,15 @@
     "static/media/project-two.png": "/portfolio-two/static/media/project-two.72f4f3ff1e98bc5b4463.png",
     "static/media/project-four.png": "/portfolio-two/static/media/project-four.f4fa08c1e180724e4ff4.png",
     "static/media/project-three.png": "/portfolio-two/static/media/project-three.d8367914fc0cee144c51.png",
-    "static/media/ex.png": "/portfolio-two/static/media/ex.50b14ea76eb03a7f7236.png",
+    "static/media/luca-five.png": "/portfolio-two/static/media/luca-five.09fc7dd50b27e48fb99e.png",
     "static/media/LUCA-PALMINTERI-EN_CV.pdf": "/portfolio-two/static/media/LUCA-PALMINTERI-EN_CV.0fc98bc9447292fb8463.pdf",
     "static/media/project-one.png": "/portfolio-two/static/media/project-one.45dbb420bb2445cb3142.png",
     "index.html": "/portfolio-two/index.html",
     "main.bbfe8aa4.css.map": "/portfolio-two/static/css/main.bbfe8aa4.css.map",
-    "main.500b8421.js.map": "/portfolio-two/static/js/main.500b8421.js.map"
+    "main.2c3d9c77.js.map": "/portfolio-two/static/js/main.2c3d9c77.js.map"
   },
   "entrypoints": [
     "static/css/main.bbfe8aa4.css",
-    "static/js/main.500b8421.js"
+    "static/js/main.2c3d9c77.js"
   ]
 }
