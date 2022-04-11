@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Tenzies",
-        "description": "This app is a replic of YouTube, it has the same functionalities. I made it mainly with ReactJS, JavaScript, Sass, Icons, API.",
+        "description": "Tenzies is a basic game made mainly with React JS. The user has to click in every die in order to get all dies equals. The project was made with some hooks, conditional rendering, vanilla JavaScript, CSS and some packages from npm.",
         "video": "../images/project-one.mp4",
         "image": "../images/project-one.png",
         "link": "https://lucapalminteri.github.io/tenzies/"

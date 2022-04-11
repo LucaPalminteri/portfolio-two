@@ -5,7 +5,7 @@ import {faEnvelope} from "@fortawesome/free-solid-svg-icons"
 import resume from '../info/LUCA-PALMINTERI-EN_CV.pdf'
 import AOS from "aos";
 import "aos/dist/aos.css";
-import img from "../images/ex.png"
+import img from "../images/luca-five.png"
 
 export default function Home() {
 
