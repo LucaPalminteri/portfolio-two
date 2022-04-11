@@ -175,12 +175,6 @@ a {
   position: absolute;
   left: 0;
   width: 100%;
-  -webkit-animation-duration: .2s;
-          animation-duration: .2s;
-  -webkit-animation-name: slideIn;
-          animation-name: slideIn;
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
 }
 
 .menu-btn .menu-btn__navbar {

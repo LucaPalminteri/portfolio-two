@@ -1,4 +1,5 @@
 import React, {useState, useEffect, useRef} from "react";
+import { HashLink } from 'react-router-hash-link'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome" 
 import {faLinkedinIn, faGithub} from '@fortawesome/free-brands-svg-icons'
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons"
@@ -35,11 +36,11 @@ export default function Home() {
                 <nav>
                     <ul className="navbar--menu">
                         <li data-aos="fade-down" data-aos-duration="800" data-aos-delay="100">
-                            <a href="#work">Work</a></li>
+                        <HashLink to='#work'> work</HashLink></li>
                         <li data-aos="fade-down" data-aos-duration="800" data-aos-delay="200">
-                            <a href="#skills">Skills</a></li>
+                        <HashLink to='#skills'> skills</HashLink></li>
                         <li data-aos="fade-down" data-aos-duration="800" data-aos-delay="300">
-                            <a href="#contact">Contact</a></li>
+                        <HashLink to='#contact'> contact</HashLink></li>
                     </ul>
                 </nav>
                 <nav>
@@ -56,12 +57,12 @@ export default function Home() {
             </nav>
             {
             isBtnOn && 
-            <div className="menu-btn">
+            <div className="menu-btn" data-aos="fade-down" data-aos-duration="200">
                 <nav>
                     <ul className={"menu-btn__navbar"}>
-                        <li><a onClick={toggle} href="#work">Work</a></li>
-                        <li><a onClick={toggle} href="#skills">Skills</a></li>
-                        <li><a onClick={toggle} href="#contact">Contact</a></li>
+                        <li><HashLink onClick={toggle} to='#work'> work</HashLink></li>
+                        <li><HashLink onClick={toggle} to='#skills'> skills</HashLink></li>
+                        <li><HashLink onClick={toggle} to='#contact'> contact</HashLink></li>
                         <li>
                             <div className="menu-btn__navbar--social">
                                 <><a onClick={toggle} href="https://www.linkedin.com/in/luca-palminteri/?locale=en_US" target="_blank"><FontAwesomeIcon className="icon" icon={faLinkedinIn}/></a></>
@@ -71,7 +72,7 @@ export default function Home() {
                         </li>
                     </ul>
                 </nav>
-            </div>//<div className="hide"></div>
+            </div>
             }
             <div className="home__container">
                 <div className="home__info">
