@@ -12,23 +12,23 @@
         "title": "YouTune 2.0",
         "description": "This project is a clone of YouTube. Made with React JS. It only display the same videos. It has some of the YouTube functionalities.",
         "video": "../images/project-two.mp4",
-        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.godfrey.com%2F-%2Fmedia%2Fgodfrey%2Finsights%2Fdigital%2Fawesome-b2b-websites%2Fawesome-web-1200x630.jpg%3Fla%3Den%26%26hasBAEA78DDD94FE233A85C8E0C5F2D1A1F6F9C396&f=1&nofb=1",
-        "link": "https://lucapalminteri.github.io/Moving/"
+        "image": "../images/project-two.png",
+        "link": "https://lucapalminteri.github.io/You-Tune-v1.0/"
     },
     {
         "id": 3,
         "title": "Json Place Holder API",
         "description": "An app that is conected to an external API to ask for data in JSON format. I use React with AXIOS library to conect with the API. I used aswnc-await functions.",
         "video": "../images/project-three.mp4",
-        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fapptech.com.tr%2Fwp-content%2Fuploads%2F2019%2F11%2Ftypes-of-websites-ecommerce.jpg&f=1&nofb=1",
-        "link": "https://lucapalminteri.github.io/Moving/"
+        "image": "../images/project-three.png",
+        "link": "https://lucapalminteri.github.io/api-jsonplaceholder-users/"
     },
     {
         "id": 4,
         "title": "Rick & Morty API",
         "description": "This is another project with APIs. I conected my app to the Ricky and Morty API. It display all of the characters in the home page. Then it use react-router to move to different cards with more specific data.",
         "video": "../images/project-four.mp4",
-        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fapptech.com.tr%2Fwp-content%2Fuploads%2F2019%2F11%2Ftypes-of-websites-ecommerce.jpg&f=1&nofb=1",
-        "link": "https://lucapalminteri.github.io/Moving/"
+        "image": "../images/project-four.png",
+        "link": "https://lucapalminteri.github.io/rick-and-morty-api/"
     }
 ]
