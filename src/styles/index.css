@@ -16,7 +16,7 @@
 }
 
 body {
-  background-color: #FBF8CC;
+  background-color: #FF0;
 }
 
 a {
@@ -124,7 +124,7 @@ a {
 .home {
   height: 100vh;
   padding: 0 80px;
-  background-color: #FBF8CC;
+  background-color: #FF0;
 }
 
 .home__navbar {
@@ -422,7 +422,7 @@ a {
 }
 
 .work {
-  background-color: #FBF8CC;
+  background-color: #FF0;
   padding: 0 80px;
   padding-bottom: 100px;
 }
@@ -565,7 +565,7 @@ a {
 }
 
 .skills {
-  background-color: #FBF8CC;
+  background-color: #FF0;
   padding: 0 80px;
 }
 
@@ -658,7 +658,7 @@ a {
 }
 
 .contact {
-  background-color: #FBF8CC;
+  background-color: #FF0;
   padding: 0 80px;
 }
 

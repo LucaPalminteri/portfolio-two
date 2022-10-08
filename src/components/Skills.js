@@ -1,9 +1,8 @@
 import React, {useEffect} from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHtml5,faJs,faReact,faSass, faBootstrap, faGitAlt, faCss3, faGithub, faFigma} from "@fortawesome/free-brands-svg-icons";
-import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 import SkillsCard from "./SkillsCards";
-import skillsData from '../info/skills.json'
+import skillsData from '../data/skills.json'
 import AOS from "aos";
 import "aos/dist/aos.css";
 

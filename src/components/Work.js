@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import data from "../info/data.json"
+import data from "../data/data.json"
 import Cards from "./Cards";
 import AOS from "aos";
 import "aos/dist/aos.css";

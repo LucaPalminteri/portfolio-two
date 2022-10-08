@@ -3,7 +3,7 @@ import { HashLink } from 'react-router-hash-link'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome" 
 import {faLinkedinIn, faGithub} from '@fortawesome/free-brands-svg-icons'
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons"
-import resume from '../info/LUCA-PALMINTERI-EN_CV.pdf'
+import resume from '../data/LUCA-PALMINTERI.pdf'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import img from "../images/luca-five.png"
